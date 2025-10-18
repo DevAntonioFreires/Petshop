@@ -501,3 +501,40 @@ body {
         grid-template-columns: 1fr;
     }
 }
+.nav {
+  display: flex;
+  gap: 1rem;
+}
+
+.nav.nav-open {
+  display: block; 
+}
+
+.mobile-menu-btn {
+  display: none; 
+}
+
+@media (max-width: 768px) {
+  .nav {
+    display: none;
+    flex-direction: column;
+    background-color: #fff;
+    position: absolute;
+    top: 60px;
+    right: 0;
+    width: 200px;
+    padding: 1rem;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+  }
+
+  .mobile-menu-btn {
+    display: block;
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    font-size: 1.5rem;
+    background: none;
+    border: none;
+    cursor: pointer;
+  }
+}
