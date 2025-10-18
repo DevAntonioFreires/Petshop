@@ -501,16 +501,3 @@ body {
         grid-template-columns: 1fr;
     }
 }
-@mediaqueries (max-width: 480px) {
-    .hero-content {
-        padding: 2rem;
-    }
-
-    .hero h1 {
-        font-size: 1.5rem;
-    }
-
-    .page-hero h1 {
-        font-size: 1.5rem;
-    }
-}   
