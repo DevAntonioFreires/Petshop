@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Petshop Melhor Amigo - Cuidados Excepcionais Para Seu Pet</title>
+    <meta name="description" content="Petshop especializado em tosa, banho, venda de ração premium e cuidados com seu melhor amigo. Profissionais qualificados e ambiente acolhedor em São Paulo.">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="logo">Melhor Amigo</div>
+            <nav class="nav">
+                <a href="#inicio" class="nav-link active" data-page="inicio">Início</a>
+                <a href="#produtos" class="nav-link" data-page="produtos">Produtos</a>
+                <a href="#galeria" class="nav-link" data-page="galeria">Galeria</a>
+                <a href="#contato" class="nav-link" data-page="contato">Contato</a>
+            </nav>
+            <button class="mobile-menu-btn">☰</button>
+        </div>
+    </header>
+
+    <div id="page-inicio" class="page active">
+        <section class="hero">
+            <div class="hero-content">
+                <h1>Bem-vindo ao Petshop "Melhor Amigo"!</h1>
+                <p>Cuidados excepcionais para seu melhor amigo. Tosa, banho e ração premium com profissionais qualificados.</p>
+                <button class="btn-primary" onclick="navigateTo('produtos')">Ver Produtos</button>
+            </div>
+        </section>
+
+        <section class="services">
+            <div class="container">
+                <h2>Nossos Serviços</h2>
+                <div class="services-grid">
+                    <div class="service-card">
+                        <div class="service-icon">✂️</div>
+                        <h3>Tosa Profissional</h3>
+                        <p>Deixamos seu pet com visual impecável através de cortes personalizados e cuidados especiais.</p>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-icon">🛁</div>
+                        <h3>Banho Relaxante</h3>
+                        <p>Banhos com produtos de qualidade em ambiente tranquilo e seguro para o conforto do seu pet.</p>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-icon">🍖</div>
+                        <h3>Ração Premium</h3>
+                        <p>Variedade de rações de alta qualidade adaptadas às necessidades de cada animal.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="about">
+            <div class="container">
+                <h2>Sobre Nós</h2>
+                <p>No Petshop "Melhor Amigo", entendemos que seu animal de estimação é mais do que apenas um bichinho, é um membro especial da sua família. Com isso em mente, estamos comprometidos em fornecer cuidados excepcionais e serviços de alta qualidade para garantir que seu melhor amigo tenha uma vida feliz e saudável.</p>
+                <p>Com uma equipe dedicada e apaixonada por animais, nossos profissionais treinados estão prontos para oferecer os melhores cuidados para o seu pet. Desde serviços de tosa profissional até a limpeza e higienização completa, proporcionamos um ambiente seguro e tranquilo.</p>
+            </div>
+        </section>
+    </div>
+
+    <div id="page-produtos" class="page">
+        <section class="page-hero">
+            <div class="container">
+                <h1>Nossos Produtos e Serviços</h1>
+                <p>Oferecemos os melhores produtos e serviços para garantir o bem-estar do seu pet.</p>
+            </div>
+        </section>
+
+        <section class="products">
+            <div class="container">
+                <div class="products-grid">
+                    <div class="product-card">
+                        <div class="product-icon">🍖</div>
+                        <h3>Ração Premium</h3>
+                        <p>Seleção de rações premium para cães e gatos. Formuladas com ingredientes de alta qualidade, garantindo nutrição balanceada.</p>
+                        <span class="product-price">A partir de R$ 89,90</span>
+                    </div>
+                    <div class="product-card">
+                        <div class="product-icon">✂️</div>
+                        <h3>Tosa Especializada</h3>
+                        <p>Serviços profissionais de tosa para cães de todas as raças. Tosadores experientes utilizam técnicas avançadas.</p>
+                        <span class="product-price">A partir de R$ 60,90</span>
+                    </div>
+                    <div class="product-card">
+                        <div class="product-icon">🛁</div>
+                        <h3>Banho Relaxante</h3>
+                        <p>Banhos relaxantes para cães e gatos com produtos de qualidade, seguros e adequados para cada tipo de pelagem.</p>
+                        <span class="product-price">A partir de R$ 45,90</span>
+                    </div>
+                    <div class="product-card">
+                        <div class="product-icon">🎾</div>
+                        <h3>Brinquedos Interativos</h3>
+                        <p>Variedade de brinquedos interativos que estimulam a mente e o corpo do seu pet, promovendo exercício físico e mental.</p>
+                        <span class="product-price">A partir de R$ 25,90</span>
+                    </div>
+                    <div class="product-card">
+                        <div class="product-icon">🧴</div>
+                        <h3>Produtos de Higiene</h3>
+                        <p>Shampoos, condicionadores, escovas e produtos de limpeza auricular e ocular para manter seu pet limpo e saudável.</p>
+                        <span class="product-price">A partir de R$ 35,90</span>
+                    </div>
+                </div>
+            </div>
+            <div class="resumo-product">
+                <p>Esses são apenas alguns dos produtos disponíveis no Petshop "Melhor Amigo".
+Temos um catálogo completo e diversificado, cuidadosamente selecionado para
+atender às necessidades dos animais de estimação. Nossa equipe terá prazer
+em orientá-lo e ajudá-lo a escolher os melhores produtos para o seu amiguinho
+de quatro patas</p>
+            </div>
+        </section>
+    </div>
+
+    <div id="page-galeria" class="page">
+        <section class="page-hero">
+            <div class="container">
+                <h1>Galeria de Fotos</h1>
+                <p>Nossa galeria de fotos é o reflexo do nosso amor e cuidado pelos animais. Veja alguns dos adoráveis clientes que já passaram pelo nosso petshop.</p>
+            </div>
+        </section>
+
+        <section class="gallery">
+            <div class="container">
+                <div class="gallery-grid">
+                    <div class="gallery-item">
+                        <img src="img\cachorro5.jpg" alt="Gato persa com laço após banho">
+                        <div class="gallery-caption">
+                            <p>Luna - Linda após o banho</p>
+                        </div>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="img\cachorro4.jpg" alt="Labrador brincalhão">
+                        <div class="gallery-caption">
+                            <p>Thor - Sempre animado!</p>
+                        </div>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="img\cachorro3.jpg" alt="Yorkshire após tosa">
+                        <div class="gallery-caption">
+                            <p>Mel - Impecável e cheirosa</p>
+                        </div>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="img\cachorro2.jpg" alt="Gato siamês relaxado">
+                        <div class="gallery-caption">
+                            <p>Pandora - Cliente VIP</p>
+                        </div>
+                    </div>
+        </section>
+
+        <section class="special-moments">
+            <div class="container">
+                <h2>Momentos Especiais</h2>
+                <p>Cada pet que passa pelo Petshop "Melhor Amigo" recebe atenção especial e carinho. Oferecemos momentos especiais de brincadeiras e interação em nosso espaço dedicado, garantindo que seu pet se divirta e faça novos amigos.</p>
+            </div>
+        </section>
+    </div>
+    <div id="page-contato" class="page">
+        <section class="page-hero">
+            <div class="container">
+                <h1>Entre em Contato</h1>
+                <p>Estamos prontos para atender você e seu melhor amigo. Entre em contato conosco!</p>
+            </div>
+        </section>
+
+        <section class="contact">
+            <div class="container">
+                <div class="contact-content">
+                    <div class="contact-info">
+                        <h2>Informações de Contato</h2>
+                        <div class="info-item">
+                            <strong>📍 Endereço:</strong>
+                            <p>Rua dos Animais, 123 - São Paulo, SP</p>
+                        </div>
+                        <div class="info-item">
+                            <strong>📞 Telefone:</strong>
+                            <p>(11) 1234-5678</p>
+                        </div>
+                        <div class="info-item">
+                            <strong>✉️ E-mail:</strong>
+                            <p>contato@melhoramigo.com.br</p>
+                        </div>
+                        <div class="info-item">
+                            <strong>🕒 Horário de Funcionamento:</strong>
+                            <p>Segunda a Sexta: 8h às 18h</p>
+                            <p>Sábados: 9h às 15h</p>
+                        </div>
+                    </div>
+
+                    <div class="contact-form-wrapper">
+                        <h2>Envie uma Mensagem</h2>
+                        <form id="contact-form" class="contact-form">
+                            <div class="form-group">
+                                <label for="name">Nome:</label>
+                                <input type="text" id="name" name="name" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">E-mail:</label>
+                                <input type="email" id="email" name="email" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="phone">Telefone:</label>
+                                <input type="tel" id="phone" name="phone">
+                            </div>
+                            <div class="form-group">
+                                <label for="message">Mensagem:</label>
+                                <textarea id="message" name="message" rows="5" required></textarea>
+                            </div>
+                            <button type="submit" class="btn-primary">Enviar Mensagem</button>
+                        </form>
+                        <div id="form-message" class="form-message"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Petshop Melhor Amigo</h3>
+                    <p>Cuidando do seu melhor amigo com amor e profissionalismo desde 2010.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Contato</h4>
+                    <p>📍 Rua dos Animais, 123 - Recife, PE</p>
+                    <p>📞 (11) 1234-5678</p>
+                    <p>✉️ contato@melhoramigo.com.br</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Petshop Melhor Amigo. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
